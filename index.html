@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <navbar
+      class="fixed left-0 top-10 w-full   ease-in duration-300 "
+      id="navbar"
+    >
+      <div
+        class="text-gray-300 flex max-w-[1240px] m-auto justify-between items-center p-4 bg-black/70 border border-black rounded-md"
+        id="nav-text"
+      >
+        <div class="font-bold text-2xl underline">RK Bilskadecenter</div>
+        <ul class="hidden sm:flex justify-around items-center">
+          <li
+            class="mx-2 uppercase hover:text-orange-500 hover:border-b-2 ease-in duration-300"
+          >
+            <a href="#">hem</a>
+          </li>
+          <li
+            class="xl:hidden mx-2 uppercase hover:text-orange-500 hover:border-b-2 ease-in duration-300"
+          >
+            <a href="#services">tjänster</a>
+          </li>
+          <li
+            class="mx-2 uppercase hover:text-orange-500 hover:border-b-2 ease-in duration-300"
+          >
+            <a href="#about">om oss</a>
+          </li>
+          <li
+            class="mx-2 uppercase hover:text-orange-500 hover:border-b-2 ease-in duration-300"
+          >
+            <a href="#projects">bilder</a>
+          </li>
+          <li
+            class="mx-2 uppercase hover:text-orange-500 hover:border-b-2 ease-in duration-300"
+          >
+            <a href="#contact">Kontakt</a>
+          </li>
+        </ul>
+        <!--Mobile menu-->
+        <div class="block sm:hidden z-10 cursor-pointer" id="menu-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-menu"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
+        <div
+          class="flex absolute top-0 left-[-100%] right-0 bottom-0 justify-center items-center w-full h-screen bg-black/90 text-center ease-in duration-300"
+          id="menu"
+        >
+          <ul id="links">
+            <li
+              class="p-4 text-4xl hover:text-gray-500 cursor-pointer uppercase"
+            >
+              <a href="#">hem</a>
+            </li>
+            <li
+              class="p-4 text-4xl hover:text-gray-500 cursor-pointer uppercase"
+            >
+              <a href="#services">Tjänster</a>
+            </li>
+            <li
+              class="p-4 text-4xl hover:text-gray-500 cursor-pointer uppercase"
+            >
+              <a href="#about">om oss</a>
+            </li>
+            <li
+              class="p-4 text-4xl hover:text-gray-500 cursor-pointer uppercase"
+            >
+              <a href="#projects">BILDER</a>
+            </li>
+            <li
+              class="p-4 text-4xl hover:text-gray-500 cursor-pointer uppercase"
+            >
+              <a href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+    <main class=" w-full h-screen bg-red-900 z-0">
+        <div class=" splash-image z-10">
+            <div class="  h-[20vh] absolute bottom-0 w-full flex flex-col justify-center items-center text-white">
+                <h1 class=" text-4xl font-bold py-3">Har du en krockskadad bil ?</h1>
+                <h1 class=" text-4xl font-bold py-3">Vi återställer din plåtskada.</h1>
+            </div>
+        </div>
+    </main>
+    <main class="bg-slate-100 w-full h-screen z-10 grid grid-cols-1 md:grid-cols-2 text-gray-600">
+        <div class=" flex flex-col justify-center items-center">
+            <h2 class="text-3xl font-bold p-4">Vilka är vi</h2>
+            <p class=" text-lg px-28">RK Bilskadecenter är ett relativt ny startad företag, dock med många års erfaranhet inom bilplåtskador. Vi följer alltid fabrikantens anvisningar och uppdaterar vår kunskap om dessa löpande. Vi åtar oss stora så som små uppdrag. Någgrannhet och snabba leveranser är vår starka sida.</p>
+        </div>
+        <div class=" about-image-one">
+            
+        </div>
+        <div class=" about-image-two"></div>
+        <div class=" flex flex-col justify-center items-center">
+            <h2 class="text-3xl font-bold p-4">Vår Maskinpark</h2>
+            <p class=" text-lg px-28">RK Bilskadecenter är utrustad med moderna riktbänkar, vilka tillåter att utföra reparationer inom klass 2. Det vill säga att reparera stora krockar, där man måste återställa bilen till dess usprungliga mått. Vår maskinpark uppdateras ständigt, för att mötta de krav reparationer kräver.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

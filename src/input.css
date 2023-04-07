@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-active {
+  left: 0;
+}
+.splash-image{
+    background-image: url('../images/pexels-jesse-zheng-1213294.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.about-image-one{
+    background-image: url('../images/rk1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.about-image-two{
+    background-image: url('../images/rk2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+  
+  
+  
