@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+html {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
@@ -18,15 +17,37 @@ body {
     height: 80vh;
 }
 .about-image-one{
-    background-image: url('../images/rk1.jpg');
+    background-image: url('../images/rep1.jpg');
     background-position: center;
     background-size: cover;
 }
 .about-image-two{
-    background-image: url('../images/rk2.jpg');
+    background-image: url('../images/rep2.jpg');
     background-position: center;
     background-size: cover;
 }
+.about-image-tre{
+  background-image: url('../images/rep3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-four{
+  background-image: url('../images/rep4.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-five{
+  background-image: url('../images/rep5.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-sex{
+  background-image: url('../images/rep6.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
   
   
   
