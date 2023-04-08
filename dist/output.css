@@ -649,6 +649,26 @@ video {
   top: 2.5rem;
 }
 
+.bottom-\[\] {
+  bottom: ;
+}
+
+.bottom-\[-\] {
+  bottom: -;
+}
+
+.bottom-\[-20\] {
+  bottom: -20;
+}
+
+.bottom-\[-20px\] {
+  bottom: -20px;
+}
+
+.bottom-\[-30px\] {
+  bottom: -30px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1937,16 +1957,16 @@ video {
      object-fit: scale-down;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-2 {
@@ -2640,10 +2660,6 @@ html {
 
   .lg\:m-0 {
     margin: 0px;
-  }
-
-  .lg\:flex {
-    display: flex;
   }
 
   .lg\:h-screen {
