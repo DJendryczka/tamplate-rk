@@ -16,6 +16,16 @@ html {
     background-size: cover;
     height: 80vh;
 }
+.about-image-right{
+  background-image: url('../images/rk1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-left{
+  background-image: url('../images/rk2.jpg');
+  background-position: center;
+  background-size: cover;
+}
 .about-image-one{
     background-image: url('../images/rep1.jpg');
     background-position: center;
