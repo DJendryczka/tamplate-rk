@@ -56,6 +56,21 @@ html {
   background-position: center;
   background-size: cover;
 }
+.about-image-seven{
+  background-image: url('../images/IMG-6104.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-eight{
+  background-image: url('../images/IMG-6126.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-image-nine{
+  background-image: url('../images/IMG-6128.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
 
   
