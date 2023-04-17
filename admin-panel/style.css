@@ -1,0 +1,68 @@
+body{
+    font-family: calibri;
+}
+.account{
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+nav a{
+    color: rgb(93, 88, 88);
+}
+.font-1{
+    font-size: 14px;
+}
+.pb-custom{
+    padding-bottom: 4rem;
+}
+.red-dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ae1414;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .yellow-dot {
+    height: 12px;
+    width: 12px;
+    background-color: #e5d712;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .blue-dot {
+    height: 12px;
+    width: 12px;
+    background-color: #5bbae0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .green-dot {
+    height: 12px;
+    width: 12px;
+    background-color: #16750f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+@media screen and (max-width: 769px){
+    .icons{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }  
+    .p-1{
+        order: -1;
+    }
+    .icons img{
+        width: 40%;
+    }
+    .column{
+        flex-direction: column;
+    }
+   
+}
